@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Maciej Szerwinski/AndroidStudioProjects/MyToDoList/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/Maciej Szerwinski/AndroidStudioProjects/MyToDoList/app/src/main/res/layout/fragment_add_task.xml" value="0.22" />
+        <entry key="..\:/Users/Maciej Szerwinski/AndroidStudioProjects/MyToDoList/app/src/main/res/layout/fragment_delete_dialog.xml" value="0.22" />
+        <entry key="..\:/Users/Maciej Szerwinski/AndroidStudioProjects/MyToDoList/app/src/main/res/layout/fragment_display_task.xml" value="0.36210762331838564" />
+        <entry key="..\:/Users/Maciej Szerwinski/AndroidStudioProjects/MyToDoList/app/src/main/res/layout/fragment_item.xml" value="0.18" />
+        <entry key="..\:/Users/Maciej Szerwinski/AndroidStudioProjects/MyToDoList/app/src/main/res/layout/fragment_item_list.xml" value="0.33" />
+        <entry key="..\:/Users/Mxcom/Desktop/MyToDoList/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Mxcom/Desktop/MyToDoList/app/src/main/res/layout/fragment_add_task.xml" value="0.33" />
+        <entry key="..\:/Users/Mxcom/Desktop/MyToDoList/app/src/main/res/layout/fragment_display_task.xml" value="0.26268115942028986" />
+        <entry key="..\:/Users/Mxcom/Desktop/MyToDoList/app/src/main/res/layout/fragment_item.xml" value="0.5" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
