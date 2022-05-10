@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddContactFragment">
+
+
+    <TextView
+        android:id="@+id/phoneView"
+        android:layout_width="107dp"
+        android:layout_height="23dp"
+        android:text="Numer telefonu :"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="268dp" />
+
+    <TextView
+        android:id="@+id/nameView"
+        android:layout_width="107dp"
+        android:layout_height="23dp"
+        android:text="Imię Nazwisko :"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="200dp" />
+
+    <EditText
+        android:id="@+id/nameID"
+        android:layout_width="210dp"
+        android:layout_height="47dp"
+        android:ems="10"
+        android:hint="Pole do wypełnienia"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="188dp" />
+
+    <TextView
+        android:id="@+id/dateView"
+        android:layout_width="107dp"
+        android:layout_height="23dp"
+        android:text="Data urodzenia :"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="348dp" />
+
+    <ImageButton
+        android:id="@+id/saveButton"
+        android:layout_width="87dp"
+        android:layout_height="76dp"
+        android:src="@android:drawable/ic_menu_save"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgId"
+        android:layout_width="148dp"
+        android:layout_height="151dp"
+        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:src="@tools:sample/avatars" />
+
+    <EditText
+        android:id="@+id/phoneID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Pole do wypełnienia"
+        android:inputType="phone"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="256dp" />
+
+    <EditText
+        android:id="@+id/dateID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="date"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="338dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

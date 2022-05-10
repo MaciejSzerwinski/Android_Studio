@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/displayContactContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DisplayContactFragment">
+
+    <TextView
+        android:id="@+id/displayBirthday"
+        android:layout_width="178dp"
+        android:layout_height="38dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="348dp" />
+
+    <TextView
+        android:id="@+id/displayPhone"
+        android:layout_width="178dp"
+        android:layout_height="38dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="268dp" />
+
+    <TextView
+        android:id="@+id/nameView2"
+        android:layout_width="107dp"
+        android:layout_height="23dp"
+        android:text="Imię Nazwisko :"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="200dp" />
+
+    <ImageView
+        android:id="@+id/displayImage"
+        android:layout_width="148dp"
+        android:layout_height="151dp"
+        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:src="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/dateView2"
+        android:layout_width="107dp"
+        android:layout_height="23dp"
+        android:text="Data urodzenia :"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="348dp" />
+
+    <TextView
+        android:id="@+id/phoneView2"
+        android:layout_width="107dp"
+        android:layout_height="23dp"
+        android:text="Numer telefonu :"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="268dp" />
+
+    <ImageButton
+        android:id="@+id/displayEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:src="@android:drawable/ic_menu_edit"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/displayDescritpion"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/displayName"
+        android:layout_width="178dp"
+        android:layout_height="38dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="192dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
