@@ -5,30 +5,6 @@ import android.os.Parcelable
 import android.util.Log
 import com.example.mycontactlist.R
 import java.util.ArrayList
-import java.util.concurrent.ThreadLocalRandom
-
-fun getImg(): Int {
-    val random_value: Int = ThreadLocalRandom.current().nextInt(1,16)
-    return when(random_value){
-        1 -> R.drawable.avatar_1
-        2 -> R.drawable.avatar_2
-        3 -> R.drawable.avatar_3
-        4 -> R.drawable.avatar_4
-        5 -> R.drawable.avatar_5
-        6 -> R.drawable.avatar_6
-        7 -> R.drawable.avatar_7
-        8 -> R.drawable.avatar_8
-        9 -> R.drawable.avatar_9
-        10 -> R.drawable.avatar_10
-        11 -> R.drawable.avatar_11
-        12 -> R.drawable.avatar_12
-        13 -> R.drawable.avatar_13
-        14 -> R.drawable.avatar_14
-        15 -> R.drawable.avatar_15
-        16 -> R.drawable.avatar_16
-        else -> R.drawable.avatar_1
-    }
-}
 
 object Contacts {
 
@@ -52,6 +28,10 @@ object Contacts {
     private fun createPlaceholderItem(position: Int): ContactItem {
         return ContactItem(position.toString(), "Item " + position, "Bitrh " + position,
                            "Phone_number " + position, getImg())
+    }
+
+    private fun getImg(): Int {
+        return R.drawable.avatar_1
     }
 }
 

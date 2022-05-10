@@ -12,133 +12,75 @@
         android:id="@+id/phoneView"
         android:layout_width="107dp"
         android:layout_height="23dp"
-        android:layout_marginStart="16dp"
         android:text="Numer telefonu :"
         android:textAlignment="center"
-        app:layout_constraintBottom_toTopOf="@+id/guideline4"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline3" />
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="268dp" />
 
     <TextView
         android:id="@+id/nameView"
         android:layout_width="107dp"
         android:layout_height="23dp"
-        android:layout_marginStart="16dp"
         android:text="Imię Nazwisko :"
         android:textAlignment="center"
-        app:layout_constraintBottom_toTopOf="@+id/guideline3"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline2" />
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="200dp" />
 
     <EditText
-        android:id="@+id/nameContact"
+        android:id="@+id/nameID"
         android:layout_width="210dp"
         android:layout_height="47dp"
         android:ems="10"
         android:hint="Pole do wypełnienia"
         android:inputType="textPersonName"
         android:textAlignment="center"
-        app:layout_constraintBottom_toTopOf="@+id/guideline3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/nameView"
-        app:layout_constraintTop_toTopOf="@+id/guideline2" />
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="188dp" />
 
     <TextView
         android:id="@+id/dateView"
         android:layout_width="107dp"
         android:layout_height="23dp"
-        android:layout_marginStart="16dp"
         android:text="Data urodzenia :"
         android:textAlignment="center"
-        app:layout_constraintBottom_toTopOf="@+id/guideline5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline4" />
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="348dp" />
 
     <ImageButton
         android:id="@+id/saveButton"
-        android:layout_width="99dp"
-        android:layout_height="87dp"
+        android:layout_width="87dp"
+        android:layout_height="76dp"
         android:src="@android:drawable/ic_menu_save"
-        app:layout_constraintBottom_toTopOf="@+id/guideline6"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline5" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
-        android:id="@+id/imgContact"
+        android:id="@+id/imgId"
         android:layout_width="148dp"
         android:layout_height="151dp"
-        app:layout_constraintBottom_toTopOf="@+id/guideline2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/avatar_1" />
+        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:src="@tools:sample/avatars" />
 
     <EditText
-        android:id="@+id/phoneContact"
+        android:id="@+id/phoneID"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="Pole do wypełnienia"
         android:inputType="phone"
         android:textAlignment="center"
-        app:layout_constraintBottom_toTopOf="@+id/guideline4"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/phoneView"
-        app:layout_constraintTop_toTopOf="@+id/guideline3" />
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="256dp" />
 
     <EditText
-        android:id="@+id/dateContact"
+        android:id="@+id/dateID"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="date"
-        app:layout_constraintBottom_toTopOf="@+id/guideline5"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/dateView"
-        app:layout_constraintTop_toTopOf="@+id/guideline4" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.3" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.45" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.60" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.75" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.95688224" />
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        app:layout_constraintBottom_toTopOf="@+id/guideline6"
-        app:layout_constraintStart_toStartOf="parent" />
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="338dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -9,69 +9,54 @@
 
     <TextView
         android:id="@+id/displayBirthday"
-        android:layout_width="200dp"
-        android:layout_height="50dp"
-        android:layout_marginEnd="24dp"
+        android:layout_width="178dp"
+        android:layout_height="38dp"
         android:text="TextView"
-        app:layout_constraintBottom_toTopOf="@+id/guideline11"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline10" />
-
-    <TextView
-        android:id="@+id/phoneView2"
-        android:layout_width="139dp"
-        android:layout_height="26dp"
-        android:text="Numer telefonu :"
-        android:textAlignment="center"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toTopOf="@+id/guideline10"
-        app:layout_constraintEnd_toStartOf="@+id/displayPhone"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline9" />
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="348dp" />
 
     <TextView
         android:id="@+id/displayPhone"
-        android:layout_width="200dp"
-        android:layout_height="50dp"
-        android:layout_marginEnd="24dp"
+        android:layout_width="178dp"
+        android:layout_height="38dp"
         android:text="TextView"
-        app:layout_constraintBottom_toTopOf="@+id/guideline10"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline9" />
-
-    <TextView
-        android:id="@+id/dateView2"
-        android:layout_width="139dp"
-        android:layout_height="25dp"
-        android:text="Data urodzenia :"
-        android:textAlignment="center"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toTopOf="@+id/guideline11"
-        app:layout_constraintEnd_toStartOf="@+id/displayBirthday"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline10" />
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="268dp" />
 
     <TextView
         android:id="@+id/nameView2"
-        android:layout_width="124dp"
-        android:layout_height="26dp"
+        android:layout_width="107dp"
+        android:layout_height="23dp"
         android:text="Imię Nazwisko :"
         android:textAlignment="center"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toTopOf="@+id/guideline9"
-        app:layout_constraintEnd_toStartOf="@+id/displayName"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline8" />
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="200dp" />
 
     <ImageView
         android:id="@+id/displayImage"
-        android:layout_width="191dp"
-        android:layout_height="180dp"
-        app:layout_constraintBottom_toTopOf="@+id/guideline8"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline7"
+        android:layout_width="148dp"
+        android:layout_height="151dp"
+        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteY="16dp"
         tools:src="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/dateView2"
+        android:layout_width="107dp"
+        android:layout_height="23dp"
+        android:text="Data urodzenia :"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="348dp" />
+
+    <TextView
+        android:id="@+id/phoneView2"
+        android:layout_width="107dp"
+        android:layout_height="23dp"
+        android:text="Numer telefonu :"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="268dp" />
 
     <ImageButton
         android:id="@+id/displayEdit"
@@ -80,8 +65,7 @@
         android:layout_marginEnd="16dp"
         android:src="@android:drawable/ic_menu_edit"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="16dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="16dp" />
 
     <TextView
         android:id="@+id/displayDescritpion"
@@ -97,47 +81,10 @@
 
     <TextView
         android:id="@+id/displayName"
-        android:layout_width="200dp"
-        android:layout_height="50dp"
-        android:layout_marginEnd="24dp"
+        android:layout_width="178dp"
+        android:layout_height="38dp"
         android:text="TextView"
-        app:layout_constraintBottom_toTopOf="@+id/guideline9"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline8" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.008291874" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.35" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.5" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.65" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.8" />
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="192dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
