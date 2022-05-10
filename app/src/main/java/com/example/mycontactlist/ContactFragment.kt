@@ -22,6 +22,12 @@ class ContactFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         binding = FragmentItemListBinding.inflate(inflater,container, false)
+
+        with(binding.list){
+            layoutManager = LinearLayoutManager(context)
+            adapter = MyContactRecyclerViewAdapter(Contacts.ITEMS)
+        }
+
         binding.addButton.setOnClickListener { addButtonClick() }
         return binding.root
     }

@@ -13,7 +13,7 @@ import com.example.mycontactlist.databinding.FragmentItemBinding
  * [RecyclerView.Adapter] that can display a [ContactItem].
  * TODO: Replace the implementation with code for your data type.
  */
-class MyContactRecyclerViewAdapter(
+class  MyContactRecyclerViewAdapter(
     private val values: List<ContactItem>
 ) : RecyclerView.Adapter<MyContactRecyclerViewAdapter.ViewHolder>() {
 
