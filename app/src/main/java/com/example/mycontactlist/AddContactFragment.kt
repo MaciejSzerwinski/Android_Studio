@@ -34,9 +34,9 @@ class AddContactFragment : Fragment() {
     }
 
     private fun saveContact() {
-        var personalData: String = binding.nameID.text.toString()
-        var birthday: String = binding.dateID.text.toString()
-        var phoneNumber: String = binding.phoneID.text.toString()
+        var personalData: String = binding.nameContact.text.toString()
+        var birthday: String = binding.dateContact.text.toString()
+        var phoneNumber: String = binding.phoneContact.text.toString()
         var picture: Int = 0
 
         //To do jesli puste sa pola nie zapisuj kontaktow

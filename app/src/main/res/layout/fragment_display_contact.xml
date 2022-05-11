@@ -7,21 +7,44 @@
     android:layout_height="match_parent"
     tools:context=".DisplayContactFragment">
 
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.66" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.54" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.42" />
+
     <TextView
         android:id="@+id/displayBirthday"
-        android:layout_width="178dp"
-        android:layout_height="38dp"
+        android:layout_width="195dp"
+        android:layout_height="36dp"
         android:text="TextView"
-        tools:layout_editor_absoluteX="162dp"
-        tools:layout_editor_absoluteY="348dp" />
+        app:layout_constraintBottom_toTopOf="@+id/guideline12"
+        app:layout_constraintEnd_toStartOf="@+id/guideline14"
+        app:layout_constraintTop_toTopOf="@+id/guideline11" />
 
     <TextView
         android:id="@+id/displayPhone"
-        android:layout_width="178dp"
-        android:layout_height="38dp"
+        android:layout_width="193dp"
+        android:layout_height="37dp"
         android:text="TextView"
-        tools:layout_editor_absoluteX="162dp"
-        tools:layout_editor_absoluteY="268dp" />
+        app:layout_constraintBottom_toTopOf="@+id/guideline11"
+        app:layout_constraintEnd_toStartOf="@+id/guideline14"
+        app:layout_constraintTop_toTopOf="@+id/guideline10" />
 
     <TextView
         android:id="@+id/nameView2"
@@ -29,8 +52,10 @@
         android:layout_height="23dp"
         android:text="Imię Nazwisko :"
         android:textAlignment="center"
-        tools:layout_editor_absoluteX="19dp"
-        tools:layout_editor_absoluteY="200dp" />
+        app:layout_constraintBottom_toTopOf="@+id/guideline10"
+        app:layout_constraintEnd_toStartOf="@+id/displayName"
+        app:layout_constraintStart_toStartOf="@+id/guideline13"
+        app:layout_constraintTop_toTopOf="@+id/guideline9" />
 
     <ImageView
         android:id="@+id/displayImage"
@@ -46,8 +71,10 @@
         android:layout_height="23dp"
         android:text="Data urodzenia :"
         android:textAlignment="center"
-        tools:layout_editor_absoluteX="19dp"
-        tools:layout_editor_absoluteY="348dp" />
+        app:layout_constraintBottom_toTopOf="@+id/guideline12"
+        app:layout_constraintEnd_toStartOf="@+id/displayBirthday"
+        app:layout_constraintStart_toStartOf="@+id/guideline13"
+        app:layout_constraintTop_toTopOf="@+id/guideline11" />
 
     <TextView
         android:id="@+id/phoneView2"
@@ -55,8 +82,10 @@
         android:layout_height="23dp"
         android:text="Numer telefonu :"
         android:textAlignment="center"
-        tools:layout_editor_absoluteX="19dp"
-        tools:layout_editor_absoluteY="268dp" />
+        app:layout_constraintBottom_toTopOf="@+id/guideline11"
+        app:layout_constraintEnd_toStartOf="@+id/displayPhone"
+        app:layout_constraintStart_toStartOf="@+id/guideline13"
+        app:layout_constraintTop_toTopOf="@+id/guideline10" />
 
     <ImageButton
         android:id="@+id/displayEdit"
@@ -81,10 +110,32 @@
 
     <TextView
         android:id="@+id/displayName"
-        android:layout_width="178dp"
-        android:layout_height="38dp"
+        android:layout_width="190dp"
+        android:layout_height="37dp"
         android:text="TextView"
-        tools:layout_editor_absoluteX="162dp"
-        tools:layout_editor_absoluteY="192dp" />
+        app:layout_constraintBottom_toTopOf="@+id/guideline10"
+        app:layout_constraintEnd_toStartOf="@+id/guideline14"
+        app:layout_constraintTop_toTopOf="@+id/guideline9" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.3" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="15dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="358dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
